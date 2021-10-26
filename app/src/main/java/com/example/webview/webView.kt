@@ -24,6 +24,10 @@ class webView : AppCompatActivity() {
     }
 
     private fun initWebView(){
+        //Mantendo o usuário na mesma tela do webview
+        webView = WebView(applicationContext)
+        setContentView(webView)
+        //Carregando a página web
         webView.loadUrl(URL)
     }
 }
