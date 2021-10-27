@@ -10,11 +10,17 @@ sobre o assunto e com novos casos de uso.
   nenhum tratamento de click do usuário na tela; com isso caso o usuário click em algum elemento na tela ele será redirecionado para a mesma página aberta 
   no browser nativo do celular, no caso do android ele será aberto o  google chrome. 
   
-2 - etapa -> 
-    Tratamento de eventos de eventos de click e navegação do usuário na tela do webview. 
+2 - etapa -> ok
+    Tratamento de eventos de eventos de click para manter o usuário no webview.
     
-3 - etapa -> 
+3 - etapa ->
+    Navegação com histórico, avançar e retroceder.
+    
+4 - etapa -> 
+    Ativando configuração de navegação segura.
+    
+5 - etapa -> 
     Criação de webview em fragment - realizar tratamento de click e analisar as diferenças entre o uso em uma fragment e uma activity
    
-4 - etapa -> 
+6 - etapa -> 
     Input de informações. 
