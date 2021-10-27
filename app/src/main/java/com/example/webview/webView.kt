@@ -2,6 +2,7 @@ package com.example.webview
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.KeyEvent
 import android.webkit.WebView
 
 class webView : AppCompatActivity() {
@@ -30,4 +31,5 @@ class webView : AppCompatActivity() {
         //Carregando a página web
         webView.loadUrl(URL)
     }
+
 }
